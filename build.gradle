@@ -14,7 +14,7 @@ apply plugin: 'android'
 android {
 
 	compileSdkVersion 15
-    buildToolsVersion "18.0.1"//build
+    buildToolsVersion "18.0.1"
     
     defaultConfig {
         versionCode -1
@@ -40,5 +40,4 @@ android {
 
         instrumentTest.setRoot('tests')
     }
-    
 }
